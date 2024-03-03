@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sale is here</title>
+    <link rel="stylesheet" href="Salestyle.css" />
+    <main>
+        <div class="big-wrapper light">
+          <img src="./img/shape.png" alt="" class="shape" />
+          <header>
+            <div class="container">
+              <div class="logo">
+                <img src="./img/logo2.png" alt="Logo" />
+                <h3>Mens Fashion</h3>
+              </div>
+              <div class="links">
+                <ul>
+                  <li><a href="LandingPage.html ">Home</a></li>
+                  <li><a href="Feature.html">Features</a></li>
+                  <li><a href="Sale.html">Sale</a></li>
+                  <li><a href="#" class="btn">Sign up</a></li>
+                </ul>
+              </div>
+            </div>
+          </header>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+   
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Increased minimum size to 300px */
+            gap: 60px;
+            margin: 20px auto; 
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <img src="formal.jpg" alt="Image 1">
+        <img src="casual.jpg" alt="Image 2">
+        <img src="fashion.jpg" alt="Image 3"> 
+    </div>
+
+</body>
+</html>
